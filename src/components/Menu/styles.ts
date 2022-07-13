@@ -13,15 +13,17 @@ export const Cabecalho = styled.header`
         display: flex;
         justify-content: flex-end;
         align-items: center;
+    
         ul{
             list-style-type: none;
             display: flex;
             align-items: center;
+        
             li{
                 margin: 0 1.5em;
                 a{
                     text-decoration: none;
-                    font-size: 1.2em;
+                    font-size: 1.2rem;
                     color: ${colors.primary};
                 }
             }
